@@ -3,8 +3,7 @@ Trace Primer Design Software
 TRACE Primer-Linker Design Documentation v 1.0
 Last Updated: January 2014
 
-The TRACE software is a standalone MATLAB application that can design orthogonal primers and linkers. This software can be downloaded here.
-
+The TRACE software is a standalone MATLAB application that can design orthogonal primers and linkers. This software can be downloaded: https://sites.google.com/site/thegillgroupcu/software
 
 
 ## Step 1: Designing Primers from Search Space:
