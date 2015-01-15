@@ -7,7 +7,7 @@ The TRACE software is a standalone MATLAB application that can design orthogonal
 
 
 
-# Step 1: Designing Primers from Search Space:
+## Step 1: Designing Primers from Search Space:
 
 Sequences that are upstream and downstream of the sites of interest can be input into the table labelled genome sites in the Step 1 table (5'-3').  This search space should be from the same strand on the genome and should flank the site:
 
@@ -17,7 +17,7 @@ Any number of sites (1-10) can be chosen.  Fill sites in sequential order.  Prim
 
 
 
-User Defined Variables:
+#### User Defined Variables:
 
 Primer Melting Temperature: The melting temperature primers are designed for. Default = 60.
 
@@ -27,13 +27,13 @@ Nucleotides from 3' end to check: Homology is calculate based on 3' homology.  T
 
 
 
-# Step 2: Designing Linkers onto Primers.
+## Step 2: Designing Linkers onto Primers.
 
 Linkers are randomly chosen and tested for compatibility with the primer set designed from Step 1.  The software searches for N-1 linkers.  The program dynamically updates the number of random linker sequences tested. Once primers are designed and linker parameters are chosen click "Calculate Linkers" once.
 
 
 
-User Defined Variables:
+#### User Defined Variables:
 
 Linker Length: The length of the linker search space. Linker length, construct density and melt temperature are related. Default = 29 nt.
 
@@ -45,12 +45,12 @@ Maximum Association: The maximum association primer-linker sets can have.  If ma
 
 
 
-Final Sequences with Linkers:
+#### Final Sequences with Linkers:
 
 Primer-Linkers can be exported to a .csv file with the "Export" command.
 
 
 
-# TroubleShooting:
+## TroubleShooting:
 
 No acceptable primers found for site N: Increase search space or loosen primer design constraints.
